@@ -8,6 +8,7 @@ import math
 def calculate_values(num):
     if num <= 0:
         print("Number must be positive for square root and logarithm")
+        return None
     
     sqrt_val = math.sqrt(num)    # Square 
     log_val = math.log(num)      # natural log (base e)
